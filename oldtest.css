@@ -1,0 +1,30 @@
+.button-container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+}
+
+.button-container button {
+        padding: 50px 40px;
+        font-size: 70px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #02006e;
+        gap: 10px;
+        align-content: center;
+}
+
+.button-container + .button-container {
+  margin-top: 20px;
+}
+
+.highlight-banner {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    text-align: center;
+} 
